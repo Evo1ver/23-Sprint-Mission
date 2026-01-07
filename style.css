@@ -1,0 +1,185 @@
+/* ==================== 공통 ==================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  word-break: keep-all;
+  font-family: Pretendard, sans-serif;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  margin: 0 auto;
+}
+
+
+/* ==================== header ==================== */
+header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+header .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  height: 69px;
+}
+
+header .wrap .logo-btn {
+  width: 153px;
+  height: 51px;
+}
+
+header .wrap .login-btn {
+  width: 128px;
+  height: 48px;
+  background-color: #3692FF;
+  border-radius: 8px;
+  text-align: center;
+  color: #F3F4F6;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+
+/* ==================== main - 공통 ==================== */
+.box .box-txt h1 {
+  color: #374151;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+/* ==================== main - section01, section05 공통 ==================== */
+.section-blue {
+  background-color: #CFE5FF;
+}
+
+.section-blue .wrap {
+  width: 1110px;
+  height: 540px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.section-blue .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.section-blue .box .box-txt {
+  padding: 0 0 60px;
+}
+
+.section-blue .box .box-txt a {
+  display: block;
+  width: 357px;
+  height: 56px;
+  margin: 32px 0 0;
+  background-color: #3692FF;
+  border-radius: 40px;
+  text-align: center;
+  color: #F9FAFB;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.section-blue .box .box-img {
+  width: 746px;
+  height: 340px;
+}
+
+/* ==================== main - section02, section03, section04 공통 ==================== */
+.section-white {
+  background-color: #FFFFFF;
+}
+.section-white .wrap {
+  width: 988px;
+  height: 720px;
+  padding: 138px 0;
+}
+
+.section-white .box {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  background-color: #FCFCFC;
+  border-radius: 12px;
+}
+
+.section-white .box .box-img {
+  width: 579px;
+  height: 444px;
+}
+
+.section-white .box .box-txt h1 {
+  letter-spacing: 2%;
+}
+
+.section-white .box .box-txt h2 {
+  margin: 0 0 12px;
+  color: #3692FF;
+  font-family: "Abhaya Libre", serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+}
+
+.section-white .box .box-txt p {
+  margin: 24px 0 0;
+  color: #374151;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+/* ==================== main - section02 ==================== */
+#section02 .box {
+  padding: 0 0 0 23.5px;
+}
+
+/* ==================== main - section03 ==================== */
+#section03 .box {
+  flex-direction: row-reverse;
+  padding: 0 14px 0 0;
+}
+
+#section03 .box .box-txt {
+  text-align: right;
+}
+
+/* ==================== main - section04 ==================== */
+#section04 {
+  margin: 0 0 138px;
+}
+
+#section04 .box .box-img {
+  width: 572px;
+}
+
+/* ==================== main - section05 ==================== */
+#section05 .box .box-img {
+  height: 397px;
+}
+
+
+/* ==================== footer ==================== */
+footer {
+  height: 160px;
+  background-color: #111827;
+}
