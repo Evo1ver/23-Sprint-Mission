@@ -1,33 +1,33 @@
 .gnb {
-  width: 1120px;
-  margin: 9.5px auto;
+    width: 1120px;
+    margin: 9.5px auto;
 }
 
-.gnb>nav {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+.gnb > nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn-small-48 {
-  padding: 12px 23px;
-  background-color: var(--primary-100);
-  border-radius: 8px;
-  color: var(--secondary-100);
-  vertical-align: middle;
-  text-align: center;
-  font: var(--text-lg);
+    padding: 12px 23px;
+    background-color: var(--primary-100);
+    border-radius: 8px;
+    color: var(--secondary-100);
+    vertical-align: middle;
+    text-align: center;
+    font: var(--text-lg);
 }
 
 .btn-large {
-  padding: 16px 124px;
-  background-color: var(--primary-100);
-  border-radius: 40px;
-  color: var(--secondary-100);
-  vertical-align: middle;
-  text-align: center;
-  font: var(--text-lg);
+    padding: 16px 124px;
+    background-color: var(--primary-100);
+    border-radius: 40px;
+    color: var(--secondary-100);
+    vertical-align: middle;
+    text-align: center;
+    font: var(--text-lg);
 }
 
 .btn-small-48:hover,
