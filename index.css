@@ -1,33 +1,33 @@
 .gnb {
-    width: 1120px;
-    margin: 9.5px auto;
+  width: 1120px;
+  margin: 9.5px auto;
 }
 
 .gnb > nav {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .btn-small-48 {
-    padding: 12px 23px;
-    background-color: var(--primary-100);
-    border-radius: 8px;
-    color: var(--secondary-100);
-    vertical-align: middle;
-    text-align: center;
-    font: var(--text-lg);
+  padding: 12px 23px;
+  background-color: var(--primary-100);
+  border-radius: 8px;
+  color: var(--secondary-100);
+  vertical-align: middle;
+  text-align: center;
+  font: var(--text-lg);
 }
 
 .btn-large {
-    padding: 16px 124px;
-    background-color: var(--primary-100);
-    border-radius: 40px;
-    color: var(--secondary-100);
-    vertical-align: middle;
-    text-align: center;
-    font: var(--text-lg);
+  padding: 16px 124px;
+  background-color: var(--primary-100);
+  border-radius: 40px;
+  color: var(--secondary-100);
+  vertical-align: middle;
+  text-align: center;
+  font: var(--text-lg);
 }
 
 .btn-small-48:hover,
@@ -56,7 +56,7 @@
   padding-top: 200px;
 }
 
-.landing-header>div {
+.landing-header > div {
   width: 1110px;
   margin: auto;
 
@@ -106,7 +106,7 @@
   padding-top: 200px;
 }
 
-.landing-footer>div {
+.landing-footer > div {
   width: 1110px;
   margin: auto;
 
@@ -132,8 +132,7 @@
   font-size: 16px;
   line-height: 100%;
   text-align: center;
-  color: #9CA3AF;
-
+  color: #9ca3af;
 
   display: flex;
   justify-content: space-between;
@@ -155,29 +154,29 @@
 }
 
 .footer_links a {
-  color: #E5E7EB;
+  color: #e5e7eb;
   text-decoration: none;
 }
 
 /* NOTE: 강결합되어 있으므로 리팩토링 필요 */
 
-.landing-section-content>span {
+.landing-section-content > span {
   font: var(--text-2lg);
   color: var(--primary-100);
   font-weight: 800;
 }
 
-.landing-section-content>div {
+.landing-section-content > div {
   margin-top: 12px;
 }
 
-.landing-section-content>div>p {
+.landing-section-content > div > p {
   font: var(--text-2xl);
   color: var(--secondary-700);
   font-weight: 500;
 }
 
-.landing-section-content>div>h2 {
+.landing-section-content > div > h2 {
   margin-bottom: 24px;
 }
 
