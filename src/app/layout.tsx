@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={nanumSquareFont.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="bg-gray-50 font-sans">{children}</body>
     </html>
   );
 }
