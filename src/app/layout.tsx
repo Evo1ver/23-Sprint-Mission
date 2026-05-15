@@ -1,4 +1,5 @@
-import { nanumSquareFont } from "@/assets/fonts";
+import { nanumSquareFont, santokki } from "@/assets/fonts";
+
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,8 +8,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={nanumSquareFont.variable}>
-      <body className="bg-gray-50 font-sans">{children}</body>
+    <html
+      lang="ko"
+      className={`${nanumSquareFont.variable} ${santokki.variable}`}
+    >
+      <body className="font-nanum bg-gray-50">{children}</body>
     </html>
   );
 }

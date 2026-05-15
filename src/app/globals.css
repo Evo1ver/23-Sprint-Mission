@@ -2,6 +2,7 @@
 
 @theme {
   --font-nanum: var(--font-nanum), sans-serif;
+  --font-santokki: var(--font-santokki), sans-serif;
 
   --shadow-outline: 4px 4px 0 0 #0f172a;
 }
