@@ -143,6 +143,8 @@ const eslintConfig = defineConfig([
             order: "asc", // 알파벳 오름차순 정렬
             caseInsensitive: true, // 대소문자 구분 없이 정렬
           },
+          // 할당하지 않는 import (예: global.css 등)에 대해서도 정렬
+          warnOnUnassignedImports: true,
         },
       ],
 
