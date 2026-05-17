@@ -12,7 +12,7 @@ const BadgeStyle = cva(
   }
 );
 
-type BadgeType = NonNullable<VariantProps<typeof BadgeStyle>["type"]>;
+export type BadgeType = NonNullable<VariantProps<typeof BadgeStyle>["type"]>;
 
 const MAP_TEXT: Record<BadgeType, string> = {
   todo: "TO DO",
