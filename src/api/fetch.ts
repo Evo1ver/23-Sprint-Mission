@@ -13,8 +13,6 @@ async function request<T>(
   if (!res.ok) {
     throw new Error(`[${method} ${path}] ${res.status} ${res.statusText}`);
   }
-  // DELETE의 경우 응답 본문이 있을 수도 없을 수도 있음
-  if (res.status === 204) return undefined as T;
   return res.json() as Promise<T>;
 }
 
