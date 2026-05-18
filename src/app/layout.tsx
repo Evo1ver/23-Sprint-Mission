@@ -1,4 +1,5 @@
 import { nanumSquareFont, santokki } from "@/assets/fonts";
+import { TodoGnb } from "@/components/todo-gnb";
 import { Providers } from "@/provider/query-provider";
 
 import "./globals.css";
@@ -14,7 +15,10 @@ export default function RootLayout({
       className={`${nanumSquareFont.variable} ${santokki.variable}`}
     >
       <body className="font-nanum bg-gray-50">
-        <Providers>{children}</Providers>
+        <Providers>
+          <TodoGnb />
+          {children}
+        </Providers>
       </body>
     </html>
   );
