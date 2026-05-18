@@ -11,7 +11,6 @@ export function AddTodoInput({ className, ...props }: ComponentProps<"input">) {
       )}
       type="text"
       placeholder="할 일을 입력해주세요"
-      name="name"
       {...props}
     />
   );

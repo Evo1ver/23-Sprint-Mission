@@ -7,6 +7,7 @@ import typescriptParser from "@typescript-eslint/parser";
 import prettier from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
 import importXPlugin from "eslint-plugin-import-x";
+import pluginQuery from "@tanstack/eslint-plugin-query";
 
 const eslintConfig = defineConfig([
   // -----------------------------------------------------
@@ -19,6 +20,8 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   // Next.js TypeScript 권장 규칙 적용
   ...nextTs,
+  // tanstack-query plugin 적용
+  ...pluginQuery.configs["flat/recommended"],
 
   // -----------------------------------------------------
   // 2. 글로벌 린트 검사 제외 경로 설정 (globalIgnores)
