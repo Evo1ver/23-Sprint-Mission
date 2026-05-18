@@ -19,7 +19,7 @@ const ACTION_MAP = {
   },
 } as const;
 
-const TodoSearchButtonStyle = cva(
+const ButtonStyle = cva(
   "font-nanum shadow-outline flex items-center justify-center rounded-3xl py-4.25 text-base font-bold outline-2 active:outline-2 active:outline-slate-900",
   {
     variants: {
@@ -41,9 +41,9 @@ const TodoSearchButtonStyle = cva(
 );
 
 type TodoSearchButtonProps = React.ComponentProps<"button"> &
-  VariantProps<typeof TodoSearchButtonStyle>;
+  VariantProps<typeof ButtonStyle>;
 
-export function TodoSearchButton({
+export function TodoButton({
   size = "lg",
   actionType,
   className,
@@ -54,7 +54,7 @@ export function TodoSearchButton({
 
   return (
     <button
-      className={TodoSearchButtonStyle({ size, actionType: action, className })}
+      className={ButtonStyle({ size, actionType: action, className })}
       {...props}
     >
       {icon}

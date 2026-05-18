@@ -2,10 +2,7 @@ import { ComponentProps } from "react";
 
 import { cn } from "@/lib/cn";
 
-export function TodoSearchInput({
-  className,
-  ...props
-}: ComponentProps<"input">) {
+export function AddTodoInput({ className, ...props }: ComponentProps<"input">) {
   return (
     <input
       className={cn(
@@ -14,7 +11,7 @@ export function TodoSearchInput({
       )}
       type="text"
       placeholder="할 일을 입력해주세요"
-      name="todo-search-input"
+      name="name"
       {...props}
     />
   );
