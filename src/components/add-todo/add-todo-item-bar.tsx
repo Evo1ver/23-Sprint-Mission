@@ -43,6 +43,7 @@ export function AddTodoItemBar() {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     mutate(formData);
+    e.currentTarget.reset();
   };
 
   return (
